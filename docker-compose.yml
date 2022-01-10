@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  clonebot:
+    image: kerensekali/clonebot:latest
+    container_name: clonebot
+    restart: unless-stopped
