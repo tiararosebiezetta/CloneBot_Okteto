@@ -5,7 +5,7 @@ services:
     image: kerensekali/clonebot:latest
     container_name: clonebot
     environment:
-      - telegram_token: "${telegram_token}"
-      - user_ids: "${user_ids}"
-      - group_ids: "${group_ids}"
+      - telegram_token=${telegram_token}
+      - user_ids=${user_ids}
+      - group_ids=${group_ids}
     restart: unless-stopped
